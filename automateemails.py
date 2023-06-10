@@ -1,10 +1,12 @@
+#My Youtube Channel:     iitian sid
+#if you want to understand about the code you can visit my youtube channel and search for Automate Gmail Using Python.........
 import os
 from email.message import EmailMessage
-import ssl
-import smtplib
-email_sender='siddhantsaxena2881@gmail.com'
-email_password='plbuuqcbxutufuxn'
-email_reciever=['saxenasid2132002@gmail.com','siddhantsaxena0786@gmail.com']
+import ssl#for secure transmission of messages
+import smtplib#sipmle mail transfer protocol library for sending mail by functions
+email_sender='testmail@gmail.com'
+email_password='XXXXXXXXXX'
+email_reciever='testmamil2@gmail.com'
 subject='Test Mail'
 body="""
 Hello,This is Siddhant Saxena And This Mail Is Only For Testing Purpose.Just Ignore It.
